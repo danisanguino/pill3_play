@@ -22,7 +22,7 @@
               <h2>Choose a name to play</h2>
                  <input type="text" id="username"
                  name="username" placeholder="Username Here!" maxlength="15" required></section><br>
-                 <button type="submit" id="welcome-button">Let's Start</button>
+                 <button type="submit" id="start-button">Let's Start</button>
              </section>
        </div>
 
@@ -30,24 +30,11 @@
             <h2>User Scores</h2>
 
             <div class="players">
-                <h3>Nombre Jugador</h3>
-                <p>Puntiacion jugador</p>
+                <h3 id="playerName"></h3>
+                <p id="playerScore"></p>
             </div>
 
-            <div class="players">
-                <h3>Nombre Jugador</h3>
-                <p>Puntiacion jugador</p>
-            </div>
-
-            <div class="players">
-                <h3>Nombre Jugador</h3>
-                <p>Puntiacion jugador</p>
-            </div>
-
-            <div class="players">
-                <h3>Nombre Jugador</h3>
-                <p>Puntiacion jugador</p>
-            </div>
+        </div>
 
         </div>
         </div>
@@ -58,75 +45,48 @@
 
             <div class="choser">
                 <section>
-                    <button type="submit" id="start-button">Start Game</button>
+                    <button type="submit" id="startGame-button">Start Game</button>
                 </section>
-          </div>
+            </div>
    
-          <div class="score">
-               <h2>User Scores</h2>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
+            <div class="score">
+                <h2>User Scores</h2>
+
+                <div class="players">
+                    <h3 id="playerName"></h3>
+                    <p id="playerScore"></p>
+            </div>
+            
+        </div>
    
            </div>
            </div>
 
            <!-- Step 3 -->
 
-        <div class="container hidden" id="start">
+        <div class="container hidden" id="game">
 
             <div class="choser">
                 <section>
                     <button type="submit" id="game-button">Click here fast!!</button>
                 </section>
-          </div>
+            </div>
    
-          <div class="score">
-               <h2>User Scores</h2>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
-               <div class="players">
-                   <h3>Nombre Jugador</h3>
-                   <p>Puntiacion jugador</p>
-               </div>
-   
+            <div class="score">
+                <h2>User Scores</h2>
+
+                <div class="players">
+                    <h3 id="playerName"></h3>
+                    <p id="playerScore"></p>
+            </div>
+            
+        </div>
            </div>
            </div>
 
            <!-- Step 4 -->
 
-        <div class="container hidden" id="start">
+        <div class="container hidden" id="resume">
 
             <div class="choser">
                 <section>
@@ -152,5 +112,6 @@
 
 
     </main>
+    <script src="script.js"></script>
  </body>
 </html>
